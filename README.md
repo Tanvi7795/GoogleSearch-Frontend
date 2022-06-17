@@ -22,7 +22,7 @@ The website includes three pages: one for regular Google Search (which must be c
 
 
 ### Google Image Search
-![](sneakpeeks/images.gif)
+![](sneakpeeks/3jNW78_125820aaadbe15bcf9b6b576c3b173ae_00-00-00_00-00-20_1.gif)
 
 
 ### Google Advanced Search
