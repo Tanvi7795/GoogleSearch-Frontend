@@ -1,0 +1,279 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*google clone code*/
+
+main{
+    position: absolute;
+    margin: 120px 25px 0px 45px;
+}
+
+header{
+    display:block;
+    position: relative;
+    padding: 8px; 
+    margin: 4px 4px 4px 4px;
+    text-align: right; /*########*/
+    height: 48px;
+    line-height: 48px;
+    
+}
+
+a{
+    text-decoration: none; 
+    color:rgba(0,0,0,0.87);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 0 8px;
+}
+
+.findheader{
+    padding: 0 0 18px 0;
+    min-width: 167px;
+}
+
+.find{
+    font-family: arial,sans-serif;
+    margin: 0 455px 0 0;
+    font-size: 100%;
+}
+
+.typet{
+    font-family: arial,sans-serif;
+    font-weight: inherit;
+    font-weight: 700;
+    color: #777;
+    font-size: 13px;
+}
+
+.type1{
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    height: 30px;
+    line-height: 30px;
+    min-width: 167px;
+    margin: 0 0 13px 0;
+}
+
+.type2{
+    font-family: arial,sans-serif;
+    font-size: 11px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 0 13px 13px;
+}
+
+.br{
+    margin: 0;
+}
+
+.searchbar{
+    position: relative; /* this made the difference */
+    display: flex;
+    width: 100%;
+   
+}
+
+.sbar:focus {
+    outline: none; 
+}
+
+.googleimg img{
+    position: absolute;
+    width: 74px;
+    height: 24px;
+    display: flex;
+    margin-left: 10px;
+    padding: 12px 0 12px 0;
+}
+
+.text{
+    position: absolute;
+    padding: 8px; 
+    margin: 4px 4px 4px 4px;
+    width: 98.4vw;
+    display: block;
+    font-family: arial,sans-serif;
+    color: #d93025;
+    font-size: 20px;
+    height: 48px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.text2{
+    line-height: 48px;
+    margin-left: 35px;
+}
+
+.searchbar input{
+    display: flex; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 399px;
+    height: 29px;
+    border: 1px solid #D3D3D3;
+    cursor: text;
+    text-align: left; 
+    padding: 0 0 0 10px;
+}
+
+span input:focus{
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 2px #719ECE inset;
+} 
+
+input sbar{
+    background-color: #4d90fe;
+    border: 1px solid #f8f9fa;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 6px ;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    user-select: none;
+}
+
+.button input{
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    border-radius: 2px;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    font-family: arial,sans-serif;
+    height: 30px;
+    color: #fff;
+    margin: 15px 0 0 470px;
+    
+}
+
+.button input:hover{
+    background-color: #4787ed;
+}
+
+.button input:focus{
+    border: 0.5px solid black;
+}
+
+footer{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:70px;   /* Height of the footer */
+    background:rgb(233, 233, 233);
+    line-height: 60px;
+    color: #7a8086;
+    font-family: arial;
+    font-size: 15px;
+    font-weight: 4px; 
+}
+
+h1{
+    padding-left: 35px;
+}
+    

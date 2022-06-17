@@ -1,0 +1,231 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*google clone code*/
+
+header{
+    display:block;
+    padding-block: 10px;
+    margin-left: 4px; margin-right: 4px;
+    margin-top: 4px; margin-bottom: 4px;
+    text-align: right; /*########*/
+    height: 48px;
+    line-height: 48px;
+    
+}
+
+.head{
+    padding: 0 15px;
+}
+
+a{
+    text-decoration: none; 
+    color:rgba(0,0,0,0.87);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 0 8px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.searchbar{
+    position: relative; /* this made the difference */
+    display: flex;
+    width: 100%;
+}
+
+.sbar:focus {
+    box-shadow: 0px 1px 3px 2px #e0e0e0;
+    outline: none; 
+}
+  
+.sbar:hover {
+    box-shadow: 0px 1px 3px 2px #e0e0e0; 
+}
+
+.searchbar input{
+    display: flex; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 584px;
+    height: 44px;
+    border-radius: 44px;
+    border: 1px solid #D3D3D3;
+    cursor: text;
+    text-align: left; 
+    padding: 0 0 0 50px;
+}
+
+.googleimg img{
+    width: 302px;
+    height: 102px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;   
+    margin-top: 70px; margin-bottom: 10px; /*top of what */
+}
+
+.buttons {
+    text-align: center;
+}
+
+span input{/*  designing the gs class won't work since you've set the 
+    values for the span tag already */
+    background-color: #f8f9fa;
+    cursor: grab;
+}
+
+span input:focus{
+    box-shadow: 0px 1px 2px 2px #e0e0e0;
+    outline: none; 
+}
+
+span input:hover{
+    box-shadow: 0px 1px 2px 2px #e0e0e0;
+}
+
+.icon {
+    padding: 24px 40px 0 475px;
+    position: absolute;
+    height: 42px;
+    display: flex;
+    line-height: 44px;
+    color: #9aa0a6;
+}
+
+input{
+    background-color: #ffffff;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px ;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    user-select: none;
+}
+
+footer{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:70px;   /* Height of the footer */
+    background:rgb(233, 233, 233);
+    line-height: 60px;
+    color: #7a8086;
+    font-family: arial;
+    /* padding-left: 35px; */
+    font-size: 15px;
+    font-weight: 4px; 
+}
+
+h1{
+    padding-left: 35px;
+}
+    
