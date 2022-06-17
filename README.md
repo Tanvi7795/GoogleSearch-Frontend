@@ -17,7 +17,15 @@ The website includes three pages: one for regular Google Search (which must be c
   - Find pages with… “none of these words:” <br/>
 
 ## Sneak Peeks
+### Google Search Page
+![](sneakpeeks/index.gif)
 
-![](indexpage_AdobeExpress.gif)
+### Google Image Search
+![](sneakpeeks/images.gif)
+
+### Google Advanced Search
+![](sneakpeeks/advancedsearch.gif)
+
+
 
 
