@@ -26,7 +26,7 @@ The website includes three pages: one for regular Google Search (which must be c
 
 
 ### Google Advanced Search
-![](sneakpeeks/advancedsearch.gif)
+
 
 
 
