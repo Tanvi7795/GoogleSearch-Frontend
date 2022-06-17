@@ -18,14 +18,14 @@ The website includes three pages: one for regular Google Search (which must be c
 
 ## Sneak Peeks
 ### Google Search Page
-
-
+![](sneakpeeks/index.gif)
 
 ### Google Image Search
-![](sneakpeeks/3jNW78_125820aaadbe15bcf9b6b576c3b173ae_00-00-00_00-00-20_1.gif)
-
+![](sneakpeeks/images.gif)
 
 ### Google Advanced Search
+![](sneakpeeks/advancedsearch.gif)
+
 
 
 
